@@ -14,8 +14,8 @@ First thing first, all the instructions you will read here are specifically for 
 
 ## Install Ubuntu.
 
-- Go to the official Ubuntu website (https://ubuntu.com/download) and download the latest version of Ubuntu that matches your system's architecture (32-bit or 64-bit).
-- Create a bootable USB drive or DVD with the Ubuntu image you downloaded in the previous step. You can use a tool like Rufus (https://rufus.ie/) to create a bootable USB drive or use the built-in tools on your operating system.
+- Go to the official Ubuntu [website](https://ubuntu.com/download) and download the latest version of Ubuntu that matches your system's architecture (32-bit or 64-bit).
+- Create a bootable USB drive or DVD with the Ubuntu image you downloaded in the previous step. You can use a tool like [Rufus](https://rufus.ie/) to create a bootable USB drive or use the built-in tools on your operating system.
 - Insert the bootable USB drive or DVD into your computer and restart the system.
 - When the system is booting, you should see a screen with the option to boot from the USB drive or DVD. Choose the option that matches your installation media and press Enter.
 - The Ubuntu installer will launch. Select your language and click "Install Ubuntu."
@@ -30,43 +30,77 @@ First thing first, all the instructions you will read here are specifically for 
 - Check out the [video](https://www.youtube.com/watch?v=Id3eVPDinDE&t=267s) for detailed instructions
 - Open a terminal window in Ubuntu by pressing Ctrl+Alt+T.
 - Install the required packages for building LAMMPS by running the following command:
-  ```sudo apt-get update```
-  ```sudo apt-get install build-essential git cmake libfftw3-dev libjpeg-dev libpng-dev libtbb-dev libopenmpi-dev```
-  ```sudo apt-get install cmake```
-  ```sudo apt-get install git```
+  ```
+  sudo apt-get update
+  ```
+  ```
+  sudo apt-get install build-essential git cmake libfftw3-dev libjpeg-dev libpng-dev libtbb-dev libopenmpi-dev
+  ```
+  ```
+  sudo apt-get install cmake
+  ```
+  ```
+  sudo apt-get install git
+  ```
 - Clone the LAMMPS repository from GitHub using the following command:
-  ```git clone -b stable https://github.com/lammps/lammps.git/lammps```
+  ```
+  git clone -b stable https://github.com/lammps/lammps.git/lammps
+  ```
 - Change to the lammps directory using the following command:
-  ```cd lammps```
+  ```
+  cd lammps
+  ```
 - Create a build directory and change to it using the following commands:
- ```mkdir build```
- ```cd build```
+ ```
+ mkdir build
+ ```
+ ```
+ cd build
+ ```
 - Configure the LAMMPS build process using ccmake by running the following command:
   - cmake -D CMAKE\_INSTALL\_PREFIX=/home/user/lammps/lammps-install ../cmake/
 - Now install ccmake gui by running the command:
-  ```Sudo apt install cmake-curses-gui```
-  ```Ccmake ../cmake/```
+  ```
+  Sudo apt install cmake-curses-gui
+  ```
+  ```
+  Ccmake ../cmake/
+  ```
 - Now whatever the feature you like to turn on just click enter then press c to configure then press g to generate
   - Example: BUILD\_MPI ON, BUILD\_OMP ON
 - Compile LAMMPS using the following command:
-  ```sudo make -jX```
+  ```
+  sudo make -jX
+  ```
 - Replace X with the number of CPU cores you want to use for the build process. For example, if you have a quad-core CPU, you can use make -j4.
 - Install LAMMPS using the following command:
-  ```sudo make install```
-  ```pwd```
+  ```
+  sudo make install
+  ```
+  ```
+  pwd
+  ```
 - Copy the directory in which you have installed lammps
-  - Example /home/user/lammps/lammps-install -----------------------\> (1)
+  - Example /home/user/lammps/lammps-install 
 - Congratulations! You have successfully installed LAMMPS from source code
 
 Note: if you see any error during any steps above try to fix that error first by looking on the internet
 
 - Now to access lammps from any where in your system do the following
-  ```Sudo nano .bashrc```
+  ```
+  Sudo nano .bashrc
+  ```
 - At the end of the document add the following lines use opuput of pwd command (1)
-  ```export path =$path: /home/user/lammps/lammps-install```
-  ```export OMP\_NUM\_THREADS= 1```
+  ```
+  export path =$path: /home/user/lammps/lammps-install
+  ```
+  ```
+  export OMP\_NUM\_THREADS= 1
+  ```
 - So every time you open terminal above path will be added.
-```To Run LAMMPS type lmp in terminal you should see something like this```
+```
+To Run LAMMPS type lmp in terminal you should see something like this
+```
 
 LAMMPS (23 Jun 2022 - Update 2)
 
@@ -76,24 +110,42 @@ using 1 OpenMP thread(s) per MPI task
 
 - Download the VMD from official website [Link to download](https://www.ks.uiuc.edu/Development/Download/download.cgi?UserID=&AccessCode=&ArchiveID=1475)
 - Go to the directory where you have downloaded the tar file and extract. Let's say we have downloaded this file in the Downloads directory.
-  ```cd Downloads/```
-  ```tar xvzf vmd-1.9.3.bin.LINUXAMD64-CUDA102-OptiX650-OSPRay185.opengl.tar.gz```
+  ```
+  cd Downloads/
+  ```
+  ```
+  tar xvzf vmd-1.9.3.bin.LINUXAMD64-CUDA102-OptiX650-OSPRay185.opengl.tar.gz
+  ```
 - It will create a new directory, namely, vmd-1.9.3.
 - Move inside this new directory and install as shown below.
-  ```cd vmd-1.9.3/```
+  ```
+  cd vmd-1.9.3/
+  ```
 - Now, open the file configure and change the $install\_bin\_dir and $install\_library\_dir if you wish otherwise leave the default values as it is. Now paste the following command.
-  ``` ./configure```
+  ```
+  ./configure
+  ```
 - Now, move inside the src directory to install.
-  ``` cd src/```
-  ```sudo make install```
+  ``` 
+  cd src/
+  ```
+  ```
+  sudo make install
+  ```
 - It will take a moment to finish the installation. Now, you can type vmd in the terminal and it should work. However, sometimes, it does not work that way. You have to add it to the path. For that, follow the steps given below.
-  ```sudo nano ~/.bashrc```
+  ```
+  sudo nano ~/.bashrc
+  ```
 - Go to the end of the file and paste the following:
   - $ /path/to/vmd
 - For example, $ /usr/local/bin/vmd
 - Save and exit.
-  ```source ~/.bashrc```
+  ```
+  source ~/.bashrc
+  ```
 - If it still doesn't open then add the following path instead of the above.
   - $ /usr/local/bin/vmd/vmd\_LINUXAMD64
-  ```source ~/.bashrc```
+  ```
+  source ~/.bashrc
+  ```
 - Now, it should work properly
