@@ -1,8 +1,7 @@
 ---
 title: Wifi Temperature sensor
 author: AR
-kewords: installation
-keywords: 
+kewords: installation 
 tag: 
 ---
 # \*\*IOT Project\*\*
