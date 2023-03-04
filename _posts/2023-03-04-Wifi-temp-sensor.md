@@ -17,25 +17,25 @@ tag:
 - Go to setting of your hotspot and copy the connected device ip (192.168.xx.xx) and paste it in your browser
 - Now you would be able to see the reading of the sensor. ![](RackMultipart20230304-1-xzajtx_html_28baef029f462e90.png)
 
-![Shape 2](RackMultipart20230304-1-xzajtx_html_e9218e9c3f673bf9.gif) ![Shape 15](RackMultipart20230304-1-xzajtx_html_5ef6f22f35af36ad.gif)
+![Shape 2]() ![Shape 15]()
 
 ###
 
 
 ### **When**  **NOT**  **on the same Network**
 
-- Go to the URL [qmellabiitkgp.blogspot.com](http://qmellabiitkgp.blogspot.com/) , click on the give link ![](RackMultipart20230304-1-xzajtx_html_a97b59b830cf8ad9.png)
+- Go to the URL [qmellabiitkgp.blogspot.com](http://qmellabiitkgp.blogspot.com/) , click on the give link ![]()
 
 - Open the link Example: 2baa-xxx-110-242-14.in.ngrok.io.( ! This link suppose to change. )
 
-![](RackMultipart20230304-1-xzajtx_html_9056fdcd0d34677c.png)
+![]()
 
 =======================================================================
 
 # Step wise guide to make wifi temperature sensor
 
 - Components required:
-  - [Generic Wemos D1 Mini V2.2.0 Wifi Internet Development Board Based Esp8266 4Mb Flash Esp-12S Chip](https://www.amazon.in/V2-2-0-Internet-Development-ESP8266-ESP-12S/dp/B077MDHLRC) ![](RackMultipart20230304-1-xzajtx_html_63a17f231c2a4bde.png) ![](RackMultipart20230304-1-xzajtx_html_5c6272586b373cfb.png)
+  - [Generic Wemos D1 Mini V2.2.0 Wifi Internet Development Board Based Esp8266 4Mb Flash Esp-12S Chip](https://www.amazon.in/V2-2-0-Internet-Development-ESP8266-ESP-12S/dp/B077MDHLRC) ![]() ![]()
 
 ![](RackMultipart20230304-1-xzajtx_html_2e97c62c6575d770.png)
 
@@ -46,7 +46,7 @@ tag:
 
 - **Connections:**
 
-![Shape3](RackMultipart20230304-1-xzajtx_html_f572113e733ebce.gif)
+![Shape3]()
 
 # [Code](https://github.com/Alok62877/IOT_temp_sensor_-Wifi-/blob/main/code.ino)
 
