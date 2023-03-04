@@ -180,6 +180,7 @@ compress_html:
     envs: [development]
 
 exclude:
+  - temp
   - '*.gem'
   - '*.gemspec'
   - tools
@@ -189,6 +190,7 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
+  
 
 jekyll-archives:
   enabled: [categories, tags]
