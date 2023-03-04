@@ -1,8 +1,7 @@
 ---
 title: Prerequisite
-author: Alok Ranjan
-keywords: prerequisite
-tags:
+categories:[start,begin]
+tags: [tutorial,ubuntu install]
 ---
 
 # Prerequisite
