@@ -6,7 +6,7 @@ tag:
 ---
 # \*\*IOT Project\*\*
 
-![Shape1](RackMultipart20230304-1-xzajtx_html_3a531d2327f034a5.gif)
+![Shape1]()
 
 # Instructions to connect Wemos\_D1\_mini(esp8266)
 
@@ -15,7 +15,7 @@ tag:
 - Create a hotspot from your phone/desktop, rename your hotspot as "QMEL\_LAB" and set the password of your hotspot qmel@123.
 - Wait for few minutes when a device named "ESP-EAE289" get connected from the hotspot
 - Go to setting of your hotspot and copy the connected device ip (192.168.xx.xx) and paste it in your browser
-- Now you would be able to see the reading of the sensor. ![](RackMultipart20230304-1-xzajtx_html_28baef029f462e90.png)
+- Now you would be able to see the reading of the sensor. ![]()
 
 ![Shape 2]() ![Shape 15]()
 
@@ -37,7 +37,7 @@ tag:
 - Components required:
   - [Generic Wemos D1 Mini V2.2.0 Wifi Internet Development Board Based Esp8266 4Mb Flash Esp-12S Chip](https://www.amazon.in/V2-2-0-Internet-Development-ESP8266-ESP-12S/dp/B077MDHLRC) ![]() ![]()
 
-![](RackMultipart20230304-1-xzajtx_html_2e97c62c6575d770.png)
+![]()
 
   - Any Power supply of 5V/2.4A (any smart phone charger USB MICRO B type)
   - Connecting wire
