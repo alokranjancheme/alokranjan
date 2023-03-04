@@ -43,7 +43,7 @@ Copy of all option by running "ccmake ../cmake" in lammps/build directory.
 
 - Here we are not using the in.lmp file created by fftool instead we will write our own script from scratch
 
-##Data file
+## Data file
 
 ```
 Main Parameters
@@ -730,6 +730,6 @@ Step Time TotEng KinEng PotEng E\_vdwl E\_coul E\_long Temp Press Volume Density
 Loop time of 0.16002 on 4 procs for 39 steps with 2000 atoms
 
 94.3% CPU use with 4 MPI tasks x 1 OpenMP threads
-
-This is the output of above system
 ```
+This is the output of above system
+
