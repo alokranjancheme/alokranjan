@@ -1,7 +1,7 @@
 ---
 title: Prerequisite
 categories:[start,begin]
-tags: [tutorial,ubuntu install]
+tags: [tutorial,ubuntu,install]
 ---
 
 # Prerequisite
