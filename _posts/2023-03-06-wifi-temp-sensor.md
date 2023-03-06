@@ -33,7 +33,7 @@ title: IOT Project Wifi Temp Sensor
 
 - Components required:
 
- [Generic Wemos D1 Mini V2.2.0 Wifi Internet Development Board Based Esp8266 4Mb Flash Esp-12S Chip](https://www.amazon.in/V2-2-0-Internet-Development-ESP8266-ESP-12S/dp/B077MDHLRC) ![](RackMultipart20230306-1-u9vsrd_html_63a17f231c2a4bde.png) ![](RackMultipart20230306-1-u9vsrd_html_5c6272586b373cfb.png)
+ [Generic Wemos D1 Mini V2.2.0 Wifi Internet Development Board Based Esp8266 4Mb Flash Esp-12S Chip](https://www.amazon.in/V2-2-0-Internet-Development-ESP8266-ESP-12S/dp/B077MDHLRC)
 
 ![image](https://user-images.githubusercontent.com/125783050/223188757-43970d60-36a5-49c2-a8c8-8e16fbb13a71.png)
 
