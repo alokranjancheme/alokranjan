@@ -79,7 +79,7 @@ Above code, print four graphs with all the data points and the running average t
 
 ![image](https://user-images.githubusercontent.com/125783050/223185591-b98e5807-0205-4215-a6e2-e15321653101.png)
 
-## Calculating RDF using VMD
+### Calculating RDF using VMD
 
 There are many articles available on RDF, here we have discussed step wise method to plot RDF in VMD
 
