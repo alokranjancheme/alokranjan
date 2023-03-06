@@ -32,7 +32,7 @@ title: IOT Project Wifi Temp Sensor
 # Step wise guide to make wifi temperature sensor
 
 - Components required:
-- 
+
  [Generic Wemos D1 Mini V2.2.0 Wifi Internet Development Board Based Esp8266 4Mb Flash Esp-12S Chip](https://www.amazon.in/V2-2-0-Internet-Development-ESP8266-ESP-12S/dp/B077MDHLRC) ![](RackMultipart20230306-1-u9vsrd_html_63a17f231c2a4bde.png) ![](RackMultipart20230306-1-u9vsrd_html_5c6272586b373cfb.png)
 
 ![image](https://user-images.githubusercontent.com/125783050/223188757-43970d60-36a5-49c2-a8c8-8e16fbb13a71.png)
@@ -42,7 +42,7 @@ title: IOT Project Wifi Temp Sensor
   - 100 K resistor
   - RTC thermistors ([Generic "10 Pcs Ntc Thermistor Temperature Sensor 10K Ohm Mf52-103 3435 1% "](https://www.amazon.in/Generic-Thermistor-Temperature-Sensor-Mf52-103/dp/B01M8QX36Q))
 
-- **Connections:**
+##Connections:
 
 ![image](https://user-images.githubusercontent.com/125783050/223188939-f9405727-c0a3-4c2a-a3c2-0e049f50b601.png)
 
