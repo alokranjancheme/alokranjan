@@ -1,6 +1,7 @@
 ---
 title: Videos and Graphs
-comment: true
+categories: [analysing_trajectories,post_processing]
+tags: [videos]
 ---
 # Videos
 
