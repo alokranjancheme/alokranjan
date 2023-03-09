@@ -37,13 +37,16 @@ tags: [tutorials]
 
 - Now we will use these two file as input for fftool and we will create lammps data file
 - type the following code
+
 ```bash
 python3 fftool 500 c.zmat -b 60
 ```
+
 ## FFtool for lammps data file
 
 - At this point you have lammps data file (Please do proper research to find LJ parameters for C atom)
 - Now we will lammps script for the simulation
+
 ```cpp
 clear
 units 		real
@@ -88,6 +91,7 @@ run             10000000
 unfix           mynpt
 write_restart   restart.npt.*
 ```
+
 - Above given script will run the simulation for total of 14 nanosecond
 - 2 ns in NVE, 2ns in NVT and 10ns in NPT
 
@@ -95,13 +99,17 @@ write_restart   restart.npt.*
 
 - After the simulation is over you will get .dcd file (snapshot of coordinates)  
 - Open VMD and go to Externsion > TkConsole and type the following
+
 ```bash
 topo readlammpsdata data.lmp
 ```
+
 ```bash
 pbc box
 ```
+
 - After that select the molecule and go to File > Load Data into Molecule after all frames are loaded then again in console type
 ```bash
 pbc wrap -all
 ```
+
