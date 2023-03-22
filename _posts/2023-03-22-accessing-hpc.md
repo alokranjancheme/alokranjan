@@ -1,6 +1,6 @@
 ---
 author:
-title: Acessing HPC
+title: Accessing HPC
 categories: [softwere,guidlines]
 tags: [tutorials]
 ---
