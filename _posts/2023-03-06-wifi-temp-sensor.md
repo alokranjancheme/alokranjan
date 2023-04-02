@@ -1,5 +1,8 @@
 ---
 title: IOT Project Wifi Temp Sensor
+comments: true
+categories: [extras,iot]
+tags: [code]
 ---
 
 # IOT Project
