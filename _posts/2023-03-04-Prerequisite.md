@@ -1,7 +1,7 @@
 ---
 title: Prerequisite
 comments: true
-categories: [,]
+categories: []
 tags: []
 ---
 
