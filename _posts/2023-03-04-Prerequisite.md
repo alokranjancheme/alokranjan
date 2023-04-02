@@ -1,5 +1,8 @@
 ---
 title: Prerequisite
+comments: true
+categories: [,]
+tags: []
 ---
 
 # Prerequisite
