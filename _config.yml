@@ -24,7 +24,8 @@ title: Alok Ranjan                          # the main title
 tagline: M.Tech Project IIT Kharagpur   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Complete roadmap to learn Molecular Dynamics from zero to Hero
+  Simplest guide to molecular dynamics simulations using LAMMPS.
+  
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'http://alokranjancheme.github.io/'
@@ -86,7 +87,7 @@ avatar: https://media.licdn.com/dms/image/C4D03AQF8oP3OeFrX_w/profile-displaypho
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
+comments: true
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
