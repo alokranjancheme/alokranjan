@@ -1,8 +1,5 @@
 ---
 title: Prerequisite
-comments: true
-categories: [os,software]
-tags: [tutorial]
 ---
 
 # Prerequisite
