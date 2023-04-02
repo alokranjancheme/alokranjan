@@ -1,8 +1,8 @@
 ---
 title: Prerequisite
 comments: true
-categories: []
-tags: []
+categories: [os,software]
+tags: [tutorial]
 ---
 
 # Prerequisite
